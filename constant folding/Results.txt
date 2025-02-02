@@ -1,0 +1,69 @@
+testcase1
+--O0
+----clang:
+------Optimized:   Elapsed time: 1.95632 seconds
+------Reference
+------Unoptimized: Elapsed time: 1.99464 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 1.96483 seconds
+------No difference
+------Unoptimized: Elapsed time: 1.9685 seconds
+------No difference
+--O2
+----clang:
+------Optimized:   Elapsed time: 4.2e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 8.3e-08 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 1.67e-07 seconds
+------No difference
+------Unoptimized: Elapsed time: 5.792e-06 seconds
+------No difference
+testcase2
+--O0
+----clang:
+------Optimized:   Elapsed time: 8.3e-08 seconds
+------Reference
+------Unoptimized: Elapsed time: 1.25e-07 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 4.2e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 1.25e-07 seconds
+------No difference
+--O2
+----clang:
+------Optimized:   Elapsed time: 8.4e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 1.25e-07 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 2.08e-07 seconds
+------No difference
+------Unoptimized: Elapsed time: 1.25e-07 seconds
+------No difference
+testcase3
+--O0
+----clang:
+------Optimized:   Elapsed time: 1.25e-07 seconds
+------Reference
+------Unoptimized: Elapsed time: 0.000997834 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 4.1e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 0.00104921 seconds
+------No difference
+--O2
+----clang:
+------Optimized:   Elapsed time: 4.2e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 8.3e-08 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 8.3e-08 seconds
+------No difference
+------Unoptimized: Elapsed time: 8.4e-08 seconds
+------No difference

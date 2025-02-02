@@ -1,0 +1,23 @@
+testcase1
+--O0
+----clang:
+------Optimized:   Elapsed time: 0.0444216 seconds
+------Reference
+------Unoptimized: Elapsed time: 2.80514 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 0.0442881 seconds
+------No difference
+------Unoptimized: Elapsed time: 2.78278 seconds
+------No difference
+--O2
+----clang:
+------Optimized:   Elapsed time: 0.0263242 seconds
+------No difference
+------Unoptimized: Elapsed time: 0.0261907 seconds
+------No difference
+----gcc:
+------Optimized:   Elapsed time: 0.0203866 seconds
+------No difference
+------Unoptimized: Elapsed time: 0.0262428 seconds
+------No difference
