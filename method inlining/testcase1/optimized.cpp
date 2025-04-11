@@ -19,7 +19,8 @@ int main() {
     }
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> elapsed = end - start;
-    cout << "Elapsed time: " << elapsed.count() << " seconds" << endl;
+    //cout << "Elapsed time: " << elapsed.count() << " seconds" << endl;
+    cout << " | " << elapsed.count();//output for csv
     ofstream outfile("trash.txt");
     outfile << x;
     outfile.close();
