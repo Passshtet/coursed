@@ -1,0 +1,12 @@
+echo "testcase1"
+cd testcase1
+bash textOutputgb.bash
+cd ..
+echo "testcase2"
+cd testcase2
+bash textOutputgb.bash
+cd ..
+echo "testcase3"
+cd testcase3
+bash textOutputgb.bash
+cd ..
